@@ -20,3 +20,5 @@ Note: You will always be given a non-empty list containing positive values.
 function sumOfMinimums(arr) {
   return arr.reduce((p, c) => p + Math.min(...c), 0);
 }
+
+// or
